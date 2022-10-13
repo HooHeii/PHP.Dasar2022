@@ -1,6 +1,6 @@
 <?php
 
-define ("AUTHOR", "Programmer pemula");
+define ("AUTHOR", "merupakan programer pemula") ;
 define ("APP_VERSION", 100);
 
 echo "author : ";
