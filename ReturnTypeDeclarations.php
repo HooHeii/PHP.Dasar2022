@@ -10,7 +10,7 @@ $result = sum(10, 10);
 var_dump($result);
 
 $result = sum(100, 100);
-var_dump($result);
+var_dump($result);`
 
 
 function getFinalValue(int $value): string
