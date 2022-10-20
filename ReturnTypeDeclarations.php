@@ -10,12 +10,11 @@ $result = sum(10, 10);
 var_dump($result);
 
 $result = sum(100, 100);
-var_dump($result);`
-
+var_dump($result);
 
 function getFinalValue(int $value): string
 {
-  if ($value >= 80 ) {
+  if ($value >= 80) {
     return "A";
   } else if ($value >= 70) {
     return "B";
@@ -26,11 +25,12 @@ function getFinalValue(int $value): string
   } else {
     return "E";
   }
-    echo "ups" . PHP_EOL;
+
+  echo "ups" . PHP_EOL;
 }
 
 $score = getFinalValue(90);
 var_dump($score);
 
-$score = getFinalValue(30);
-var_dump($score); 
+$score = getFinalValue(40);
+var_dump($score);
