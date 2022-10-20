@@ -33,4 +33,4 @@ $score = getFinalValue(90);
 var_dump($score);
 
 $score = getFinalValue(30);
-var_dump($score);
+var_dump($score); 
